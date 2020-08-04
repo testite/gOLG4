@@ -47,7 +47,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <header class="text-uppercase" id="home">
                 <div class="row">
                     <div class="col-xl-5 col-lg-12">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
         </header>
-        
+
         <div class="about-us">
             <div class="container">
                 <strong class="text-uppercase" id="about">about us</strong>
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="services text-center">
             <div class="container">
                 <h2 class="text-uppercase" id="services">Our <span>services</span></h2>
@@ -132,7 +132,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="what-we-do" id="team">
             <div class="container">
                 <h2 class="text-uppercase">What <span>we do</span></h2>
@@ -143,7 +143,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="prices">
             <div class="container">
                 <div id="company"></div>
@@ -206,7 +206,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="contact" id="contact">
             <div class="container">
                 <div class="contact-form">
@@ -221,7 +221,7 @@
                 </div>
             </div>
         </div>
-        
+
         <footer>
             <div class="main-part">
                 <div class="container">
@@ -255,7 +255,7 @@
                 </div>
             </div>
             <div class="copyright text-center">
-                <p>Copyright © 2018 Designed by <a href="https://html.design">Free html templates</a> All rights reserved</p>
+                <p>Copyright © 2018 Designed by VB All rights reserved</p>
             </div>
         </footer>
         
@@ -263,17 +263,17 @@
         <script src="js/bootstrap.min.js"></script>
         <script>
             $(function () {
-                
+
                 'use strict';
-                
+
                 $('.navbar ul.navbar-nav li.search a').on('click', function () {
                     $(this).siblings('form').fadeToggle();
                 });
-                
+
                 $('.navbar ul.navbar-nav li a, footer ul.main-list li a').on('click', function (e) {
-                    
+
                     var getAttr = $(this).attr('href');
-                    
+
                     e.preventDefault();
                     $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
                 });
